@@ -125,7 +125,7 @@ export default function ScanResultClient() {
 
         <JobSummaryPanel
           jobId={jobId}
-          coordinates={status?.coordinates || jobFromHistory?.coordinates}
+          
           startYear={status?.start_year || jobFromHistory?.start_year}
           endYear={status?.end_year || jobFromHistory?.end_year}
           changeTypes={jobFromHistory?.change_types}
